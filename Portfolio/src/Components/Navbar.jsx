@@ -7,9 +7,9 @@ const Navbar = () => {
         
         <a 
           href="#home" 
-          className="text-2xl font-bold tracking-wide hover:text-blue-400 duration-300"
+          className="text-2xl font-bold tracking-wide hover:text-blue-400 ml-10 duration-300"
         >
-          #KALPANA VOBINABOINA
+          K@V
         </a>
 
         <nav className="flex gap-6 text-black-800">

@@ -2,18 +2,21 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-gray-900 text-white flex items-center py-20 px-6">
+    <div className="min-h-screen  text-black-800 flex items-center py-10 px-2">
       <div className="max-w-5xl mx-auto">
-        
-        {/* Heading */}
+        <div>
+         {/* Heading */}
         <h1 className="text-4xl font-bold mb-6 text-blue-400">
           About Me
         </h1>
+       
+        </div>
+       
 
         {/* Content Section */}
         <div className="space-y-4 text-lg leading-relaxed">
           <p>
-            Hello! I'm <span className="text-blue-300 font-semibold">Kalpana Vobina Boina</span>,  
+            Hello! I'm <span className="text-blue-300 font-semibold">Kalpana Vobinaboina</span>,  
             a passionate Frontend Developer who loves creating beautiful and 
             responsive web applications.
           </p>
@@ -36,28 +39,28 @@ const About = () => {
 
         {/* Skills Box */}
         <div className="mt-10">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-300">Skills</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-blue-500">Skills</h2>
 
           <div className="flex flex-wrap gap-3">
-            <span className="px-4 py-2 bg-gray-800 rounded-lg border border-gray-700">
+            <span className="px-4 py-2 bg-stone-400 rounded-lg border border-gray-700">
               HTML
             </span>
-            <span className="px-4 py-2 bg-gray-800 rounded-lg border border-gray-700">
+            <span className="px-4 py-2 bg-stone-400 rounded-lg border border-gray-700">
               CSS
             </span>
-            <span className="px-4 py-2 bg-gray-800 rounded-lg border border-gray-700">
+            <span className="px-4 py-2 bg-stone-400 rounded-lg border border-gray-700">
               JavaScript
             </span>
-            <span className="px-4 py-2 bg-gray-800 rounded-lg border border-gray-700">
+            <span className="px-4 py-2 bg-stone-400 rounded-lg border border-gray-700">
               React
             </span>
-            <span className="px-4 py-2 bg-gray-800 rounded-lg border border-gray-700">
+            <span className="px-4 py-2 bg-stone-400 rounded-lg border border-gray-700">
               Expressjs
             </span>
-             <span className="px-4 py-2 bg-gray-800 rounded-lg border border-gray-700">
+             <span className="px-4 py-2 bg-stone-400 rounded-lg border border-gray-700">
               MongoDb
             </span>
-             <span className="px-4 py-2 bg-gray-800 rounded-lg border border-gray-700">
+             <span className="px-4 py-2 bg-stone-400 rounded-lg border border-gray-700">
            Nodejs
             </span>
           </div>
