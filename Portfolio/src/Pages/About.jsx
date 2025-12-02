@@ -31,10 +31,10 @@ const About = () => {
             real-world projects that make life easier.
           </p>
 
-          {/* <p>
+          <p>
             Apart from coding, I also love design, creativity and exploring 
             new things that improve my skills.
-          </p> */}
+          </p>
         </div>
 
         {/* Skills Box */}
