@@ -9,9 +9,9 @@ const Contact = () => {
       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-300 flex justify-center items-center p-6">
         <div className="bg-white shadow-2xl rounded-2xl p-10 max-w-xl w-full">
 
-          {/* <h1 className="text-4xl font-bold text-center mb-6 text-gray-800">
+          <h1 className="text-4xl font-bold text-center mb-6 text-gray-800">
             Contact Me
-          </h1> */}
+          </h1>
 
           <p className="text-center text-gray-600 mb-6">
             Feel free to reach out for collaborations, opportunities, or any questions!
