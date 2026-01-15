@@ -2,72 +2,70 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="min-h-screen  text-black-800 flex items-center py-10 px-2">
+    <section className="bg-slate-800 text-white px-4 sm:px-6 md:px-10 py-16 md:py-20 font-serif">
       <div className="max-w-5xl mx-auto">
-        <div>
-         {/* Heading */}
-        <h1 className="text-4xl font-bold mb-6 text-blue-400">
+
+        {/* Heading */}
+        <h1 className="text-2xl sm:text-3xl md:text-4xl text-center font-bold mb-8 md:mb-10">
           About Me
         </h1>
-       
+
+        {/* Content */}
+        <div className="max-w-3xl mx-auto space-y-4 sm:space-y-5 text-sm sm:text-base md:text-lg leading-relaxed text-slate-200 text-center px-2">
+          <p>
+            Hello! I’m{" "}
+            <span className="text-emerald-500 font-semibold">Kalpana</span>, an
+            aspiring{" "}
+            <span className="text-emerald-500">MERN Stack Developer</span>.
+          </p>
+
+          <p>
+            I specialize in building scalable and user-friendly web applications
+            using{" "}
+            <span className="text-emerald-500">
+              MongoDB, Express.js, React.js, and Node.js
+            </span>.
+            I enjoy developing responsive front-end interfaces and creating
+            secure, efficient back-end APIs.
+          </p>
+
+          <p>
+            I’m passionate about learning new technologies, improving my
+            problem-solving skills, and contributing to impactful development
+            teams.
+          </p>
         </div>
-       
 
-        {/* Content Section */}
-        <div className="space-y-4 text-lg leading-relaxed">
-          <p>
-            Hello! I'm <span className="text-blue-300 font-semibold">Kalpana Vobinaboina</span>,  
-            a passionate Frontend Developer who loves creating beautiful and 
-            responsive web applications.
-          </p>
+        {/* Skills */}
+        <div className="mt-12 md:mt-14 text-center">
+          <h2 className="text-xl sm:text-2xl md:text-3xl text-emerald-500 font-semibold mb-5 md:mb-6">
+            My Skills
+          </h2>
 
-          <p>
-            I specialize in working with <span className="text-blue-300">React, Tailwind CSS, JavaScript</span>  
-            and love building clean, modern UI designs.
-          </p>
-
-          <p>
-            I enjoy learning new technologies, solving problems and building 
-            real-world projects that make life easier.
-          </p>
-
-          <p>
-            Apart from coding, I also love design, creativity and exploring 
-            new things that improve my skills.
-          </p>
-        </div>
-
-        {/* Skills Box */}
-        <div className="mt-10">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-500">Skills</h2>
-
-          <div className="flex flex-wrap gap-3">
-            <span className="px-4 py-2 bg-stone-400 rounded-lg border border-gray-700">
-              HTML
-            </span>
-            <span className="px-4 py-2 bg-stone-400 rounded-lg border border-gray-700">
-              CSS
-            </span>
-            <span className="px-4 py-2 bg-stone-400 rounded-lg border border-gray-700">
-              JavaScript
-            </span>
-            <span className="px-4 py-2 bg-stone-400 rounded-lg border border-gray-700">
-              React
-            </span>
-            <span className="px-4 py-2 bg-stone-400 rounded-lg border border-gray-700">
-              Expressjs
-            </span>
-             <span className="px-4 py-2 bg-stone-400 rounded-lg border border-gray-700">
-              MongoDb
-            </span>
-             <span className="px-4 py-2 bg-stone-400 rounded-lg border border-gray-700">
-           Nodejs
-            </span>
+          <div className="flex flex-wrap justify-center gap-2 sm:gap-3 md:gap-4 px-2">
+            {[
+              "HTML",
+              "CSS",
+              "JavaScript",
+              "React.js",
+              "Node.js",
+              "Express.js",
+              "MongoDB",
+              "Bootstrap",
+              "Tailwind CSS",
+            ].map((skill) => (
+              <span
+                key={skill}
+                className="px-3 py-1.5 sm:px-4 sm:py-2 bg-emerald-500/90 text-slate-900 rounded-md sm:rounded-lg text-xs sm:text-sm md:text-base font-medium shadow-md transition-transform hover:scale-105"
+              >
+                {skill}
+              </span>
+            ))}
           </div>
         </div>
 
       </div>
-    </div>
+    </section>
   );
 };
 
